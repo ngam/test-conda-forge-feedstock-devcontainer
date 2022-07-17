@@ -1,0 +1,10 @@
+{
+	"name": "conda-forge-feedstock",
+	"runArgs": ["--init"],
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+
+	"remoteUser": "conda-forge"
+}
