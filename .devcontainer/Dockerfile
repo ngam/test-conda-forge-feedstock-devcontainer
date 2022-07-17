@@ -1,3 +1,3 @@
-FROM condaforge/linux-anvil-comp7
+FROM condaforge/mambaforge
 
-RUN conda install anaconda-client conda-smithy boa
+RUN mamba install anaconda-client conda-smithy boa
